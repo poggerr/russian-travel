@@ -3,6 +3,7 @@
 @import url('./__links/footer__links.css');
 .footer {
   width: 90%;
+  max-width: 1184px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 94px;
