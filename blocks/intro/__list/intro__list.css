@@ -11,6 +11,8 @@
 @media screen and (max-width:320px) {
   .intro__list {
     margin-top: 32px;
+    font-style: normal;
+    font-weight: bold;
     font-size: 12px;
     line-height: 18px;
   }
