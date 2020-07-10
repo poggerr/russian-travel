@@ -10,4 +10,15 @@
 }
 .cover__overlay:hover {
   opacity: 0.8;
+  transition: 0.4s;
+}
+@media screen and (max-width:768px) {
+  .cover__overlay {
+    height: 480px;
+  }
+}
+@media screen and (max-width:320px) {
+  .cover__overlay {
+    height: 200px;
+  }
 }

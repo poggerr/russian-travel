@@ -1,12 +1,15 @@
-.place__paragraph {
+.place__text {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 0;
+  margin: 0 0 24px
+}
+.place__text:last-child {
+  margin: 0;
 }
 @media screen and (max-width:768px) {
-  .place__paragraph {
+  .place__text {
     font-size: 16px;
   }
 }

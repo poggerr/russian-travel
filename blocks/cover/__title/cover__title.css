@@ -9,12 +9,14 @@
   margin: 0;
   z-index: 2;
 }
-.cover__title:hover {
-  opacity: 0.8;
-}
 @media screen and (max-width:670px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
+  }
+}
+@media screen and (max-width:320px) {
+  .cover__title {
+    width: 75%;
   }
 }

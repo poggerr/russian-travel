@@ -1,11 +1,15 @@
 @import url('./__image/place__image.css');
-@import url('./__paragraph/place__paragraph.css');
+@import url('./__text/place__text.css');
 @import url('./__title/place__title.css');
-@import url('./__website/__url/website__url.css');
+@import url('./__website/place__website.css');
+@import url('./__heading/place__heading.css');
+@import url('./__url/place__url.css');
+@import url('./__text_box/place__text_box.css');
 .place {
   display: grid;
-  grid-template-areas: "title website"
-  "image paragraph";
+  grid-template-areas: 
+  "title website"
+  "image text_box";
   grid-template-columns: minmax(460px, 1fr) 1fr;
   gap: 31px 8px;
   padding-bottom: 80px;
@@ -31,7 +35,8 @@
     grid-template-areas:
       "title"
       "image"
-      "textbox";
+      "website"
+      "text_box";
     gap: 32px;
   }
 }

@@ -1,0 +1,9 @@
+.place__text_box {
+  grid-area: text_box;
+}
+@media screen and (max-width:320px) {
+  .place__text_box {
+    width: 90%;
+    justify-self: center;
+  }
+}

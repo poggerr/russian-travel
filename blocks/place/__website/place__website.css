@@ -1,7 +1,12 @@
-@import url('./__heading/website__heading.css');
-@import url('./__url/website__url.css');
 .place__website {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  grid-area: website;
+}
+@media screen and (max-width:320px) {
+  .place__website {
+    width: 90%;
+    justify-self: center;
+  }
 }

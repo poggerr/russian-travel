@@ -1,4 +1,4 @@
-.website__url {
+.place__url {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
@@ -6,6 +6,7 @@
   line-height: 22px;
   text-decoration-line: underline;
 }
-.website__url:hover {
+.place__url:hover {
   opacity: 0.8;
+  transition: 0.4s;
 }
