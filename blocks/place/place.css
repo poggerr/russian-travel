@@ -4,8 +4,9 @@
 @import url('./__website/place__website.css');
 @import url('./__heading/place__heading.css');
 @import url('./__url/place__url.css');
-@import url('./__text_box/place__text_box.css');
+@import url('./__text-box/place__text-box.css');
 .place {
+  width: 984рх;
   display: grid;
   grid-template-areas: 
   "title website"
@@ -22,16 +23,26 @@
     gap: 48px 32px;
   }
 }
+@media screen and (max-width:804px) {
+  .place {
+    width: 100%;
+  }
+}
 @media screen and (max-width:768px) {
   .place {
+    width: 720px;
     gap: 48px 28px;
     grid-template-columns: minmax(340px, 1fr) 1fr;
     padding-bottom: 72px;
   }
 }
+@media screen and (max-width:767px) {
+  .place {
+    width: 100%;
+  }
+}
 @media screen and (max-width:670px) {
   .place {
-    grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "image"

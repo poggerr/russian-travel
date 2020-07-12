@@ -18,11 +18,21 @@
     width: 928px;
   }
 }
+@media screen and (max-width:970px) {
+  .footer {
+    width: 100%;
+  }
+}
 @media screen and (max-width:768px) {
   .footer {
     width: 720px;
   }
 } 
+@media screen and (max-width:767px) {
+  .footer {
+    width: 100%;
+  }
+}
 @media screen and (max-width:670px) {
   .footer {
     margin-top: 64px;

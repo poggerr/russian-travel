@@ -3,20 +3,24 @@
 @import url('./__title/intro__title.css');
 @import url('./__item/intro__item.css');
 .intro {
-  width: 690px;
-  margin-left: 148px;
-  margin-right: 442px;
-  margin-top: 92px;
+  width: 984px;
+  margin: 92px auto 0;
 }
 @media screen and (max-width:1024px) {
   .intro {
     margin: 92px 286px 0 48px;
+    width: 90%;
   }
 }
 @media screen and (max-width:768px) {
   .intro {
-    width: 90%;
+    width: 720px;
     margin: 88px auto 0;
+  }
+}
+@media screen and (max-width:730px) {
+  .intro {
+    width: 90%;
   }
 }
 @media screen and (max-width:320px) {

@@ -1,6 +1,7 @@
+@import url('./__bold/item__bold.css');
 .intro__item {
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
 }

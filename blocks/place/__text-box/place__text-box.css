@@ -1,0 +1,30 @@
+.place__text-box {
+  width: 484px;
+  grid-area: text_box;
+}
+@media screen and (max-width:1024px) {
+  .place__text-box {
+    width: 456px;
+  }
+}
+@media screen and (max-width:1004px) {
+  .place__text-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+  .place__text-box {
+    width: 352px;
+  }
+}
+@media screen and (max-width:767px) {
+  .place__text-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width:320px) {
+  .place__text-box {
+    width: 90%;
+    justify-self: center;
+  }
+}
