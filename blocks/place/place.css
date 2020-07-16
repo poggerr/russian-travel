@@ -43,6 +43,7 @@
 }
 @media screen and (max-width:670px) {
   .place {
+    grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "image"

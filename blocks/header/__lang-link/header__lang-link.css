@@ -1,2 +1,18 @@
-@import url('./-en/header__lang-link-en.css');
-@import url('./-ru/header__lang-link-ru.css');
+@import url('./-active/header__lang-link-active.css');
+.header__lang-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #ffffff;
+}
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: 0.4s;
+}
+@media screen and (max-width:320px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}

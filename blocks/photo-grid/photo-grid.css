@@ -12,11 +12,12 @@
 @media screen and (max-width:1024px) {
   .photo-grid {
     gap: 14px 14px;
+    width: 91%;
   }
 }
 @media screen and (max-width:768px) {
-  .photo__grid {
-    width: 720px;
+  .photo-grid {
+    width: 95%;
     margin-top: 88px;
   }
 }

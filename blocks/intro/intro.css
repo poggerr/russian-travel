@@ -2,6 +2,7 @@
 @import url('./__text/intro__text.css');
 @import url('./__title/intro__title.css');
 @import url('./__item/intro__item.css');
+@import url('./__bold/intro__bold.css');
 .intro {
   width: 984px;
   margin: 92px auto 0;
